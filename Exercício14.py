@@ -7,9 +7,9 @@ triangulo = ang1 + ang2 + ang3
 
 if triangulo == 180:
     # CLASSIFICAÇÃO DOS TRIÂNGULOS
-    if (ang1 and ang2 and ang3) < 90:
+    if ang1 < 90 and ang2 < 90 and ang3 < 90:
         print ('Triângulo agudo')
-    elif (ang1 or ang2 or ang3) == 90:
+    elif ang1 == 90 or ang2 == 90 or ang3 == 90:
         print('Triângulo reto')
     else:
         print('Triângulo obtuso')
